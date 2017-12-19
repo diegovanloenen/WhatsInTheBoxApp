@@ -1,0 +1,26 @@
+body {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	background: #50a3a2;
+	background-image: linear-gradient(180deg, #a1c4fd 0%, #c2e9fb 100%);
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+      opacity: 1;
+      animation: fadein 2s;
+      animation-timing-function:ease;
+}
+
+@keyframes fadein {
+      0% {
+      opacity: 0
+      }
+      100% {
+      opacity: 1;
+        }
+}

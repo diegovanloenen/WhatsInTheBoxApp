@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html>
 
-    <head> <!-- Header open -->
-	    <!-- charset -->
-        <meta charset="utf-8">
+<head> <!-- Header open -->
+      <!-- charset -->
+      <meta charset="utf-8">
 
-	  <!-- meta's -->
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+      <!-- meta's -->
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 
-	  <!-- CSS links -->
-	  <link rel="stylesheet" href="styles/bootscreenstyles.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <!-- CSS links -->
+      <link rel="stylesheet" href="styles/bootscreenstyles.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-        <!-- Font Links -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <!-- Font Links -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-	  <!-- Title -->
-        <title>Bootscreen</title>
-  </head> <!-- Header close-->
+      <!-- Title -->
+      <title>Bootscreen</title>
+</head> <!-- Header close-->
 
-    <body> <!-- Body open -->
-	     <!-- Cordova JavaScript -->
-        <script type="text/javascript" src="cordova.js"></script>
-	  <img src="images/splashicon.png" alt="" id="splashicon">
-        <h1 id="titleh1">Whats In The Box</h1>
-        <h2 id="titleh2">A Cooperative Game</h2>
+<body> <!-- Body open -->
+      <!-- Cordova JavaScript -->
+      <script type="text/javascript" src="cordova.js"></script>
+      <img src="images/splashicon.png" alt="" id="splashicon">
+      <h1 id="titleh1">Whats In The Box</h1>
+      <h2 id="titleh2">A Cooperative Game</h2>
+      <script>
+      var timer = setTimeout(function() {
+            window.location='mainmenu.html'
+      }, 4000);
+      </script>
 
-  </body> <!-- Body close -->
+</body> <!-- Body close -->
 
 </html>
