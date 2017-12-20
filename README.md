@@ -1,14 +1,14 @@
-# A Blank PhoneGap App
+# Whats in The Box
+# A Cooperative Game
 
-## Usage
+### Using
 
-### PhoneGap CLI
+    PhoneGap
+    GitHub
 
-    $ phonegap create my-app --template blank
+### Credits
 
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
-
+	Fontys HBO-ICT
+	WhatsInTheBox
+	Schooljaar 2017
+	PMS1T
