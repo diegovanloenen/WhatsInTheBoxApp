@@ -9,7 +9,7 @@ body {
 #splashicon {
 	height: 130px;
 	margin-top: 30px;
-	  animation:         splashiconanimation 1.5s; /* IE 10+, Fx 29+ */
+	  animation:         splashiconanimation 1s; /* IE 10+, Fx 29+ */
 	  animation-timing-function: ease-out;
 }
 
@@ -37,7 +37,7 @@ p {
 	color: white;
 	font-weight: lighter;
 	 margin-top: 65vh;
-	 animation:        githubanimation 2s; /* IE 10+, Fx 29+ */
+	 animation:        githubanimation 1s; /* IE 10+, Fx 29+ */
  	animation-timing-function: ease-out;
 }
 
