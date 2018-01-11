@@ -29,60 +29,67 @@ body {
 p {
 	color: white;
 	font-weight: lighter;
-	 margin-top: 65vh;
-}
-
-.github {
-	border: 1px solid white;
-	padding: 4px;
-	margin-left: 4px;
-	font-size: 15px;
-	border-radius: 10%;
-	color: white;
-	text-decoration: none;
-	font-weight: bold;
+	 margin-top: 15vh;
 }
 
 a {
 	text-decoration: none;
 }
 
-form {
-  margin: 50px 0 0 0;
-}
-label {
-  font: bold 20px Helvetica, sans-serif;
-  display: block;
-  float: left;
-  text-align: right;
-  padding: 5px 10px 0 0;
-  width: 140px;
-}
-input[type=text] {
-  float: left;
-  width: 40px;
-  font: bold 20px Helvetica, sans-serif;
-  padding: 3px 0 0 0;
-  text-align: center;
-}
-form div {
-  overflow: hidden;
-  margin: 0 0 5px 0;
-}
-.button {
-  margin: 0 0 0 5px;
-  text-indent: -9999px;
-  cursor: pointer;
-  width: 29px;
-  height: 29px;
-  float: left;
-  text-align: center;
-  background: url(../images/buttons.png) no-repeat;
-}
-.dec {
-  background-position: 0 -29px;
+h3 {
+	margin-top: 100px;
+	color: white;
 }
 
-.buttons {
-  padding: 20px 0 0 140px;
+#username {
+	color: white;
+	font-size: 100px;
+	margin-top: -10px;
+}
+
+#playercount {
+	color: white;
+	font-size: 150px;
+	margin-top: -10px;
+}
+
+span {
+	padding: 8px 50px;
+	border: 1px solid white;
+	border-radius: 100px;
+	color: white;
+}
+
+@keyframes opkomen {
+	0% {
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+br {
+	animation: opkomen 2s;
+}
+
+h3{
+	animation: opkomen 2s;
+}
+
+h4 {
+	animation: opkomen 2s;
+}
+
+a {
+	animation: opkomen 2s;
+}
+
+@keyframes opkomen {
+	0% {
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
 }
