@@ -33,10 +33,15 @@ body {
 	margin-bottom: 100px;
 }
 
-p {
+.results h1 {
+	display: inline-block;
+	margin-right: 10px;
 	color: white;
-	font-weight: lighter;
-	 margin-top: 15vh;
+}
+
+.results h2{
+	display: inline-block;
+	color: white;
 }
 
 a {
@@ -52,7 +57,7 @@ span {
 }
 
 .links {
-	margin-top: 170px;
+	margin-top: 210px;
 	animation: opkomen 2s;
 }
 
@@ -95,34 +100,6 @@ span {
 		letter-spacing: 2px;
 		font-size: 15px;
 	}
-}
-
-h3 {
-	color: white;
-	font-size: 50px;
-	 margin-bottom: 20px;
-}
-
-.pf {
-	height: 80px;
-	width: 80px;
-	background: white;
-	border-radius: 100px;
-	display: inline-block;
-	float: left;
-}
-
-section{
-	text-align: left;
-	margin-left: 90px;
-	animation: opkomen 2s;
-}
-
-section h1 {
-	color: white;
-	width: 200px;
-	padding-top: 13px;
-	margin-left: 100px;
 }
 
 @keyframes opkomen {
