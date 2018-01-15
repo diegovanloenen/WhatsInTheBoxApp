@@ -43,17 +43,20 @@ a {
 	text-decoration: none;
 }
 
-
+.main {
+	font-size: 20px;
+	font-weight: bold;
+}
 
 span {
-	padding: 8px 50px;
-	border: 1px solid white;
+	padding: 12px 50px;
+	border: 2px solid white;
 	border-radius: 100px;
 	color: white;
 }
 
 .links {
-	margin-top: 300px;
+	margin-top: 250px;
 	animation: opkomen 2s;
 }
 

@@ -52,17 +52,15 @@ a {
 
 
 span {
-	padding: 8px 50px;
-	border: 1px solid white;
+	padding: 12px 50px;
+	border: 2px solid white;
 	border-radius: 100px;
 	color: white;
-      margin-left: 5px;
-      margin-right: 5px;
 }
 
 span:hover {
-	padding: 8px 50px;
-	border: 1px solid white;
+	padding: 12px 50px;
+	border: 2px solid white;
 	border-radius: 100px;
 	color: white;
       margin-left: 5px;
