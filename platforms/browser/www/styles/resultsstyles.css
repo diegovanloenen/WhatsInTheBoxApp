@@ -37,17 +37,24 @@ body {
 	display: inline-block;
 	margin-right: 10px;
 	color: white;
+	margin-bottom: -150px;
 }
 
 .results h2{
 	display: inline-block;
 	color: white;
+	margin-bottom: -150px;
 }
 
 a {
 	text-decoration: none;
 }
 
+p {
+	margin-bottom: -30px;
+	margin-top: 0px;
+	color: white;
+}
 
 span {
 	padding: 12px 50px;
